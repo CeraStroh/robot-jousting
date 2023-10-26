@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<jigsaw>
+    <module name="Common.dll" />
+    <module name="Shapes.dll" />
+    <module name="Graphics.dll" />
+    <block id="1" typeName="Jigsaw.CControlStart" left="445" top="26">
+        <edge id="1" name="Start" linkedTo="2" />
+        <property name="Label" value="when program starts" />
+        <property name="Message" value="" />
+        <fill_color R="0.9297" G="0.9062" B="0.6641" A="1" />
+        <line_color R="0.7187" G="0.5234" B="0.043" A="1" />
+    </block>
+    <block id="2" typeName="Jigsaw.CMethodBlock" left="465" top="56">
+        <method assembly_name="Shapes" type_name="Shapes" method_name="makeWindow" return_type="Graphics+WindowClass">
+            <parameter name="title" type="System.String" default="Calico Graphics" />
+            <parameter name="width" type="System.Int32" default="300" />
+            <parameter name="height" type="System.Int32" default="300" />
+        </method>
+        <edge id="2" name="In" linkedTo="1" />
+        <edge id="3" name="Out" linkedTo="4" />
+        <property name="Label" value="W=makeWindow(&quot;Calico Graphics&quot;, 300, 300)" />
+        <property name="Message" value="" />
+        <property name="Variable" value="W" />
+        <property name="title" value="&quot;Calico Graphics&quot;" />
+        <property name="width" value="300" />
+        <property name="height" value="300" />
+        <fill_color R="0.530329046319392" G="0.659975322503585" B="0.800140128843552" A="1" />
+        <line_color R="0.212131618527757" G="0.263990129001434" B="0.320056051537421" A="1" />
+    </block>
+    <block id="3" typeName="Jigsaw.CMethodBlock" left="465" top="76">
+        <method assembly_name="Shapes" type_name="Shapes" method_name="setMode" return_type="System.Void">
+            <parameter name="window" type="Graphics+WindowClass" default="System.DBNull" />
+            <parameter name="mode" type="System.String" default="System.DBNull" />
+        </method>
+        <edge id="4" name="In" linkedTo="3" />
+        <edge id="5" name="Out" linkedTo="6" />
+        <property name="Label" value="setMode(W, &quot;bitmap&quot;)" />
+        <property name="Message" value="" />
+        <property name="window" value="W" />
+        <property name="mode" value="&quot;bitmap&quot;" />
+        <fill_color R="0.530329046319392" G="0.659975322503585" B="0.800140128843552" A="1" />
+        <line_color R="0.212131618527757" G="0.263990129001434" B="0.320056051537421" A="1" />
+    </block>
+    <block id="4" typeName="Jigsaw.CAssignment" left="465" top="96">
+        <edge id="6" name="In" linkedTo="5" />
+        <edge id="7" name="Out" linkedTo="8" />
+        <property name="Label" value="X1 = 0" />
+        <property name="Message" value="" />
+        <property name="Variable" value="X1" />
+        <property name="Expression" value="0" />
+        <fill_color R="0.5625" G="0.9297" B="0.5625" A="1" />
+        <line_color R="0" G="0.391" B="0" A="1" />
+    </block>
+    <block id="5" typeName="Jigsaw.CControlWhile" left="465" top="116">
+        <edge id="8" name="In" linkedTo="7" />
+        <edge id="9" name="Out" linkedTo="-1" />
+        <edge id="10" name="Loop" linkedTo="11" />
+        <property name="Label" value="while (True)" />
+        <property name="Message" value="" />
+        <property name="WhileTest" value="True" />
+        <fill_color R="0.9297" G="0.9062" B="0.6641" A="1" />
+        <line_color R="0.7187" G="0.5234" B="0.043" A="1" />
+    </block>
+    <block id="6" typeName="Jigsaw.CRandom" left="485" top="136">
+        <edge id="11" name="In" linkedTo="10" />
+        <edge id="12" name="Out" linkedTo="13" />
+        <property name="Label" value="X2 = random(0, 300)" />
+        <property name="Message" value="" />
+        <property name="Variable" value="X2" />
+        <property name="Min" value="0" />
+        <property name="Max" value="300" />
+        <fill_color R="0.5625" G="0.9297" B="0.5625" A="1" />
+        <line_color R="0" G="0.391" B="0" A="1" />
+    </block>
+    <block id="7" typeName="Jigsaw.CMethodBlock" left="485" top="156">
+        <method assembly_name="Shapes" type_name="Shapes" method_name="makeLine" return_type="Graphics+Line">
+            <parameter name="p1" type="System.Collections.IList" default="System.DBNull" />
+            <parameter name="p2" type="System.Collections.IList" default="System.DBNull" />
+        </method>
+        <edge id="13" name="In" linkedTo="12" />
+        <edge id="14" name="Out" linkedTo="15" />
+        <property name="Label" value="L=makeLine((X1,0), (X2,300))" />
+        <property name="Message" value="" />
+        <property name="Variable" value="L" />
+        <property name="p1" value="(X1,0)" />
+        <property name="p2" value="(X2,300)" />
+        <fill_color R="0.530329046319392" G="0.659975322503585" B="0.800140128843552" A="1" />
+        <line_color R="0.212131618527757" G="0.263990129001434" B="0.320056051537421" A="1" />
+    </block>
+    <block id="8" typeName="Jigsaw.CRandom" left="485" top="176">
+        <edge id="15" name="In" linkedTo="14" />
+        <edge id="16" name="Out" linkedTo="17" />
+        <property name="Label" value="R = random(0, 50)" />
+        <property name="Message" value="" />
+        <property name="Variable" value="R" />
+        <property name="Min" value="0" />
+        <property name="Max" value="50" />
+        <fill_color R="0.5625" G="0.9297" B="0.5625" A="1" />
+        <line_color R="0" G="0.391" B="0" A="1" />
+    </block>
+    <block id="9" typeName="Jigsaw.CRandom" left="485" top="196">
+        <edge id="17" name="In" linkedTo="16" />
+        <edge id="18" name="Out" linkedTo="19" />
+        <property name="Label" value="G = random(0, 255)" />
+        <property name="Message" value="" />
+        <property name="Variable" value="G" />
+        <property name="Min" value="0" />
+        <property name="Max" value="255" />
+        <fill_color R="0.5625" G="0.9297" B="0.5625" A="1" />
+        <line_color R="0" G="0.391" B="0" A="1" />
+    </block>
+    <block id="10" typeName="Jigsaw.CRandom" left="485" top="216">
+        <edge id="19" name="In" linkedTo="18" />
+        <edge id="20" name="Out" linkedTo="21" />
+        <property name="Label" value="B = random(0, 255)" />
+        <property name="Message" value="" />
+        <property name="Variable" value="B" />
+        <property name="Min" value="0" />
+        <property name="Max" value="255" />
+        <fill_color R="0.5625" G="0.9297" B="0.5625" A="1" />
+        <line_color R="0" G="0.391" B="0" A="1" />
+    </block>
+    <block id="11" typeName="Jigsaw.CMethodBlock" left="485" top="236">
+        <method assembly_name="Shapes" type_name="Shapes" method_name="makeColor" return_type="Graphics+Color">
+            <parameter name="r" type="System.Int32" default="System.DBNull" />
+            <parameter name="g" type="System.Int32" default="System.DBNull" />
+            <parameter name="b" type="System.Int32" default="System.DBNull" />
+            <parameter name="a" type="System.Int32" default="System.DBNull" />
+        </method>
+        <edge id="21" name="In" linkedTo="20" />
+        <edge id="22" name="Out" linkedTo="23" />
+        <property name="Label" value="C=makeColor(R, G, B, 100)" />
+        <property name="Message" value="" />
+        <property name="Variable" value="C" />
+        <property name="r" value="R" />
+        <property name="g" value="G" />
+        <property name="b" value="B" />
+        <property name="a" value="100" />
+        <fill_color R="0.530329046319392" G="0.659975322503585" B="0.800140128843552" A="1" />
+        <line_color R="0.212131618527757" G="0.263990129001434" B="0.320056051537421" A="1" />
+    </block>
+    <block id="12" typeName="Jigsaw.CMethodBlock" left="485" top="256">
+        <method assembly_name="Shapes" type_name="Shapes" method_name="setColor" return_type="System.Void">
+            <parameter name="shape" type="Graphics+Shape" default="System.DBNull" />
+            <parameter name="color" type="Graphics+Color" default="System.DBNull" />
+        </method>
+        <edge id="23" name="In" linkedTo="22" />
+        <edge id="24" name="Out" linkedTo="25" />
+        <property name="Label" value="setColor(L, C)" />
+        <property name="Message" value="" />
+        <property name="shape" value="L" />
+        <property name="color" value="C" />
+        <fill_color R="0.530329046319392" G="0.659975322503585" B="0.800140128843552" A="1" />
+        <line_color R="0.212131618527757" G="0.263990129001434" B="0.320056051537421" A="1" />
+    </block>
+    <block id="13" typeName="Jigsaw.CMethodBlock" left="485" top="276">
+        <method assembly_name="Shapes" type_name="Shapes" method_name="setBorder" return_type="System.Void">
+            <parameter name="shape" type="Graphics+Shape" default="System.DBNull" />
+            <parameter name="width" type="System.Int32" default="System.DBNull" />
+        </method>
+        <edge id="25" name="In" linkedTo="24" />
+        <edge id="26" name="Out" linkedTo="27" />
+        <property name="Label" value="setBorder(L, 12)" />
+        <property name="Message" value="" />
+        <property name="shape" value="L" />
+        <property name="width" value="12" />
+        <fill_color R="0.530329046319392" G="0.659975322503585" B="0.800140128843552" A="1" />
+        <line_color R="0.212131618527757" G="0.263990129001434" B="0.320056051537421" A="1" />
+    </block>
+    <block id="14" typeName="Jigsaw.CMethodBlock" left="485" top="296">
+        <method assembly_name="Shapes" type_name="Shapes" method_name="draw" return_type="System.Void">
+            <parameter name="shape" type="Graphics+Shape" default="System.DBNull" />
+            <parameter name="window" type="Graphics+WindowClass" default="System.DBNull" />
+        </method>
+        <edge id="27" name="In" linkedTo="26" />
+        <edge id="28" name="Out" linkedTo="29" />
+        <property name="Label" value="draw(L, W)" />
+        <property name="Message" value="" />
+        <property name="shape" value="L" />
+        <property name="window" value="W" />
+        <fill_color R="0.530329046319392" G="0.659975322503585" B="0.800140128843552" A="1" />
+        <line_color R="0.212131618527757" G="0.263990129001434" B="0.320056051537421" A="1" />
+    </block>
+    <block id="15" typeName="Jigsaw.CControlIfElse" left="485" top="316">
+        <edge id="29" name="In" linkedTo="28" />
+        <edge id="30" name="Out" linkedTo="-1" />
+        <edge id="31" name="If" linkedTo="33" />
+        <edge id="32" name="Else" linkedTo="35" />
+        <property name="Label" value="if X1 &lt; 300" />
+        <property name="Message" value="" />
+        <property name="IfTest" value="X1 &lt; 300" />
+        <fill_color R="0.9297" G="0.9062" B="0.6641" A="1" />
+        <line_color R="0.7187" G="0.5234" B="0.043" A="1" />
+    </block>
+    <block id="16" typeName="Jigsaw.CAssignment" left="505" top="336">
+        <edge id="33" name="In" linkedTo="31" />
+        <edge id="34" name="Out" linkedTo="-1" />
+        <property name="Label" value="X1 = X1 + 1" />
+        <property name="Message" value="" />
+        <property name="Variable" value="X1" />
+        <property name="Expression" value="X1 + 1" />
+        <fill_color R="0.5625" G="0.9297" B="0.5625" A="1" />
+        <line_color R="0" G="0.391" B="0" A="1" />
+    </block>
+    <block id="17" typeName="Jigsaw.CAssignment" left="505" top="376">
+        <edge id="35" name="In" linkedTo="32" />
+        <edge id="36" name="Out" linkedTo="-1" />
+        <property name="Label" value="X1 = 0" />
+        <property name="Message" value="" />
+        <property name="Variable" value="X1" />
+        <property name="Expression" value="0" />
+        <fill_color R="0.5625" G="0.9297" B="0.5625" A="1" />
+        <line_color R="0" G="0.391" B="0" A="1" />
+    </block>
+    <block id="18" typeName="Jigsaw.CAssignment" left="780" top="41">
+        <edge id="37" name="In" linkedTo="-1" />
+        <edge id="38" name="Out" linkedTo="-1" />
+        <property name="Label" value="X = 0" />
+        <property name="Message" value="" />
+        <property name="Variable" value="X" />
+        <property name="Expression" value="0" />
+        <fill_color R="0.5625" G="0.9297" B="0.5625" A="1" />
+        <line_color R="0" G="0.391" B="0" A="1" />
+    </block>
+</jigsaw>
