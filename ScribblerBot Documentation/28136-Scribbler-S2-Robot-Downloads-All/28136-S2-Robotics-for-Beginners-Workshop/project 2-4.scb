@@ -1,0 +1,136 @@
+<!-- Generated code: DO NOT EDIT! Any changes will void this file. -->
+<!-- 51BD393FCAF797BC03621E0FA4329E27 -->
+<opt autoreadsensors="2" class="Scribbler_Worksheet" version="1.3">
+  <_children active="1" activecalls="0" activeout="1" class="Scribbler_Subroutine" color="green" counters="0" subclass="">
+    <_children active="1" activeout="0" class="Scribbler_SubroutineTile" subclass="sub_begin">
+      <action icon="gear_green" />
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="3" text="C C E ...">
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="C" bars="1" class="Scribbler_SoundBite" color="white" comment="C" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="261.625565300599" type="note" />
+        </_sequence>
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="C" bars="1" class="Scribbler_SoundBite" color="white" comment="C" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="261.625565300599" type="note" />
+        </_sequence>
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="E" bars="1" class="Scribbler_SoundBite" color="white" comment="E" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="329.62755691287" type="note" />
+        </_sequence>
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="G" bars="1" class="Scribbler_SoundBite" color="white" comment="G" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="391.995435981749" type="note" />
+        </_sequence>
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="G" bars="1" class="Scribbler_SoundBite" color="white" comment="G" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="391.995435981749" type="note" />
+        </_sequence>
+        <_sequence abbr="," bars="0" class="Scribbler_SoundBite" color="blue" comment="Tick" group="Effects" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="30" fmult="1" frequency="50" type="pulse" />
+          <_notes dmult="1" duration="150" fmult="1" frequency="25" type="pulse" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>on</_states>
+        <_states>off</_states>
+        <_states>on</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="3" text="G G , ...">
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="G" bars="1" class="Scribbler_SoundBite" color="white" comment="G" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="391.995435981749" type="note" />
+        </_sequence>
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="G" bars="1" class="Scribbler_SoundBite" color="white" comment="G" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="391.995435981749" type="note" />
+        </_sequence>
+        <_sequence abbr="," bars="0" class="Scribbler_SoundBite" color="blue" comment="Tick" group="Effects" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="30" fmult="1" frequency="50" type="pulse" />
+          <_notes dmult="1" duration="150" fmult="1" frequency="25" type="pulse" />
+        </_sequence>
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="E" bars="1" class="Scribbler_SoundBite" color="white" comment="E" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="329.62755691287" type="note" />
+        </_sequence>
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="E" bars="1" class="Scribbler_SoundBite" color="white" comment="E" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="329.62755691287" type="note" />
+        </_sequence>
+        <_sequence abbr="," bars="0" class="Scribbler_SoundBite" color="blue" comment="Tick" group="Effects" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="30" fmult="1" frequency="50" type="pulse" />
+          <_notes dmult="1" duration="150" fmult="1" frequency="25" type="pulse" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="3" text="C C E ...">
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="C" bars="1" class="Scribbler_SoundBite" color="white" comment="C" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="261.625565300599" type="note" />
+        </_sequence>
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="C" bars="1" class="Scribbler_SoundBite" color="white" comment="C" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="261.625565300599" type="note" />
+        </_sequence>
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="E" bars="1" class="Scribbler_SoundBite" color="white" comment="E" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="329.62755691287" type="note" />
+        </_sequence>
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="G" bars="1" class="Scribbler_SoundBite" color="white" comment="G" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="391.995435981749" type="note" />
+        </_sequence>
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="G" bars="1" class="Scribbler_SoundBite" color="white" comment="G" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="391.995435981749" type="note" />
+        </_sequence>
+        <_sequence abbr="," bars="0" class="Scribbler_SoundBite" color="blue" comment="Tick" group="Effects" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="30" fmult="1" frequency="50" type="pulse" />
+          <_notes dmult="1" duration="150" fmult="1" frequency="25" type="pulse" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>on</_states>
+        <_states>off</_states>
+        <_states>on</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SequencerTile" subclass="">
+      <action call="" icon="tune" tempo="3" text="F F , ...">
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="F" bars="1" class="Scribbler_SoundBite" color="white" comment="F" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="349.228231433004" type="note" />
+        </_sequence>
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="F" bars="1" class="Scribbler_SoundBite" color="white" comment="F" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="349.228231433004" type="note" />
+        </_sequence>
+        <_sequence abbr="," bars="0" class="Scribbler_SoundBite" color="blue" comment="Tick" group="Effects" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="30" fmult="1" frequency="50" type="pulse" />
+          <_notes dmult="1" duration="150" fmult="1" frequency="25" type="pulse" />
+        </_sequence>
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="D" bars="1" class="Scribbler_SoundBite" color="white" comment="D" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="293.664767917408" type="note" />
+        </_sequence>
+        <_sequence _lengths="[1/16 1/8 3/16 1/4 3/8 1/2 3/4 1]" abbr="D" bars="1" class="Scribbler_SoundBite" color="white" comment="D" group="Notes" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="187.5" fmult="1" frequency="293.664767917408" type="note" />
+        </_sequence>
+        <_sequence abbr="," bars="0" class="Scribbler_SoundBite" color="blue" comment="Tick" group="Effects" notelength="1/4" notetranspose="0" tremolo="0">
+          <_notes dmult="1" duration="30" fmult="1" frequency="50" type="pulse" />
+          <_notes dmult="1" duration="150" fmult="1" frequency="25" type="pulse" />
+        </_sequence>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_LedTile" subclass="">
+      <action>
+        <_states>off</_states>
+        <_states>on</_states>
+        <_states>off</_states>
+      </action>
+    </_children>
+    <_children active="1" activeout="0" class="Scribbler_SubroutineTile" subclass="sub_end">
+      <action icon="gear_green" />
+    </_children>
+    <action></action>
+    <callsto></callsto>
+  </_children>
+</opt>
